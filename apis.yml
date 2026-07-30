@@ -1,7 +1,25 @@
 aid: milk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/milk.png
 name: Milk *
-description: 'Milk * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Milk, Inc. was a mobile application development lab founded in 2011 by
+  Kevin Rose, Daniel Burka, and Jeff Hodsdon, and backed by GV (Google Ventures).
+  Its only shipped product was Oink, an app for rating and discovering real-world
+  things. Milk shut down Oink in early 2012 and the product team was acqui-hired by
+  Google in March 2012, after which the company ceased to exist. It is defunct with
+  no active website, developer portal, SDKs, or public API surface. This profile was
+  added to the API Evangelist network as a GV portfolio lead; enrichment confirmed
+  there is no API to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/milk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,15 +27,26 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'Team acqui-hired by Google in March 2012; company and product (Oink) shut down.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Mobile
+- Defunct
+- Acqui-hired
+- GV Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
